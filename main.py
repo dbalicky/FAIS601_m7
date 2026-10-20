@@ -59,7 +59,7 @@ def generate_qr_code(data, path, fill_color='orange', back_color='light-brown'):
 def main():
     # Set up command-line argument parsing
     parser = argparse.ArgumentParser(description='Generate a QR code.')
-    parser.add_argument('--url', help='The URL to encode in the QR code', default='https://github.com/kaw393939')
+    parser.add_argument('--url', help='The URL to encode in the QR code', default='https://github.com/dbalicky')
     args = parser.parse_args()
 
     # Initial logging setup
